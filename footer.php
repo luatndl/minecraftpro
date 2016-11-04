@@ -7,8 +7,8 @@ wp_footer();
 <footer>
 	<div class="col-md-4">
 		<h2>minecraft-mods.info</h2>
-		<p>Minecraft mods reviews, downloads and guides. Updated regularly with the latest and greatest Mods for Minecraft. </p>
-		<p>On this website you can find the latest updates of minecraft, as well as to download free mods, resource packs, maps, skins for 1.9, 1.8, 1, 1.7.10, 1.6... </p>
+		<p>Minecraft mods reviews, downloads and guides. Updated regularly with the latest and greatest Mods for Minecraft.
+		<br>On this website you can find the latest updates of minecraft, as well as to download free mods, resource packs, maps, skins for 1.10.2, 1.10, 1.9.4, 1.9, 1.8, 1, 1.7.10, 1.6... </p>
 	</div>
 	<div class="col-md-4">
 		<h2>Partners</h2>
@@ -17,15 +17,15 @@ wp_footer();
 	</div>
 	<div class="col-md-4">
 		<ul class="ab">
-			<li><a href="http://www.dmca.com/Protection/Status.aspx?ID=0bd61387-9fb6-43cf-b242-4538ddb13609" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=0bd61387-9fb6-43cf-b242-4538ddb13609" alt="DMCA.com Protection Status"></a></li>
 			<li class="first"><a href="http://minecraft-mods.info/about">About us</a></li>
 			<li><a href="http://minecraft-mods.info/copyrights">Copyrights</a></li>
 			<li><a href="http://minecraft-mods.info/privacy-policy">Privacy policy</a></li>
 			<li><a href="http://minecraft-mods.info/sitemap.xml">Sitemap</a></li>
 			<li><a href="http://minecraft-mods.info/tag/minecraft-1-11-mods" title="Minecraft Mods 1.11">Minecraft Mods 1.11</a></li>	
+			<li style="float:right"><a href="http://www.dmca.com/Protection/Status.aspx?ID=0bd61387-9fb6-43cf-b242-4538ddb13609" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=0bd61387-9fb6-43cf-b242-4538ddb13609" alt="DMCA.com Protection Status"></a></li>
 		</ul>
 	</div>
-	<div class="col-md-12"><center><p>Copyright ©2014 – <?php echo date('Y'); ?> – minecraft-mods.info. All rights reserved. Minecraft-mods.info is not affiliated with Mojang AB.</p></center></div>
+	<div class="col-md-12"><center>Copyright ©2014 – <?php echo date('Y'); ?> – minecraft-mods.info. All rights reserved. Minecraft-mods.info is not affiliated with Mojang AB.</center></div>
 	<?php if($aDownloadFiles && $aDownloadFiles->listing_files) {?>
 		<script src="http://minecraft-mods.info/wp-content/themes/minecraftpro/js/jquery.dataTables.min.js"></script>
 		<script type="text/javascript" language="javascript" class="init">

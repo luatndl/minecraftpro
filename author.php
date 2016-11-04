@@ -36,7 +36,7 @@
 					<?php }?>
 					<?php require_once 'template_parts/loop-post.php';?>
 				</div>
-				<div class="col-sm-8 col-md-4 sidebar">
+				<div class="col-sm-4 col-md-4 sidebar">
 					<?php require_once 'sidebar.php';?>
 				</div>
 			</div>

@@ -19,3 +19,4 @@
     <meta name="google-site-verification" content="dqtjXo4OBGdhXFzC9sE8sSFXMJo1UOqF4HwtD0iIxjI" />
     <?php wp_head(); ?>
 </head>
+<header><a href="http://minecraft-mods.info"><img class="img-responsive" alt="minecraft-mods.info" src="http://minecraft-mods.info/wp-content/themes/2015/Minecraft-Mods.png"></a></header>

@@ -1,9 +1,9 @@
 <?php
 ?>
 	<!-- Fixed navbar -->
-    <nav class="navbar navbar-fixed-top">
+    <nav class="navbar navbar-default">
       <div class="container">
-      	<a class="navbar-brand" href="http://minecraft-mods.info"><img class="img-responsive" src="http://minecraft-mods.info/wp-content/themes/minecraftpro/images/logo.png"/></a>
+      	<div class="row">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Minecraft-mods.info</span>
@@ -72,33 +72,7 @@
 					            </li>
 								<li class="text-upper"><a title ="Skins" href="http://minecraft-mods.info/skins">Skins</a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-	          <li class="active dropdown">
-	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
-	              <ul class="dropdown-menu">
-	                <li class="dropdown">
-					              <a href="http://minecraft-mods.info/resource-packs" class="dropdown-toggle">Resource Packs</a>
-					              <ul class="dropdown-menu hidden-xs">
-									<li><a title ="1.9" href="http://minecraft-mods.info/tag/minecraft-1-9-resource-packs"><b>1.9</b></a></li>
-									<li><a title ="1.7.10" href="http://minecraft-mods.info/tag/minecraft-1-7-10-resource-packs"><b>1.7.10</b></a></li>
-									<li><a title ="1.7.2" href="http://minecraft-mods.info/tag/minecraft-1-7-2-resource-packs">1.7.2</a></li>
-									<li><a title ="1.6.4" href="http://minecraft-mods.info/tag/minecraft-1-6-4-resource-packs">1.6.4</a></li>
-									<li><a title ="1.6.2" href="http://minecraft-mods.info/tag/minecraft-1-6-2-resource-packs">1.6.2</a></li>
-									<li><a title ="16x" href="http://minecraft-mods.info/tag/16x-resource-packs">16x</a></li>
-									<li><a title ="32x" href="http://minecraft-mods.info/tag/32x-resource-packs">32x</a></li>
-									<li><a title ="64x"  href="http://minecraft-mods.info/tag/64x-resource-packs">64x</a></li>
-									<li><a title ="128x" href="http://minecraft-mods.info/tag/128x-resource-packs">128x</a></li>
-									<li><a title ="256x" href="http://minecraft-mods.info/tag/256x-resource-packs">256x</a></li>
-									<li><a title ="512x" href="http://minecraft-mods.info/tag/512x-resource-packs">512x</a></li>
-					              </ul>
-					            </li>
-					            <li class="text-upper"><a title ="Tutorials" href="http://minecraft-mods.info/tutorials">Tutorials</a></li>
-								<li class="text-upper"><a title ="Tips & Tricks" href="http://minecraft-mods.info/tips-tricks">Tips &#038; Tricks</a></li>
-					            <li class="text-upper"><a title ="Seeds" href="http://minecraft-mods.info/seeds">Seeds</a></li>
-					            <li class="text-upper"><a title ="Videos" href="http://minecraft-videos.org/" target="_blank" rel="nofollow">Videos</a></li>
-	              </ul>
-	            </li>
-          </ul>
         </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>

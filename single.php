@@ -15,7 +15,7 @@ global $aDownloadFiles;
 	<div class="container">
 		<div class="row">
 			<?php include_once 'breadcrumb.php';?>
-			<div class="main">
+			<div class="main-post">
 				<div class="col-md-8">
 					<?php 	if ( have_posts() ) {
 						while ( have_posts() ) { the_post();

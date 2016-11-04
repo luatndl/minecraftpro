@@ -51,9 +51,9 @@ function arphabet_widgets_init() {
 		'description' => '',
 		'class' => '',
 		'before_widget' => '<li id="%1$s" class="widget %2$s">',
-		'after_widget' => "</li>\n",
-		'before_title' => '<div class="title_box"><span class="widgettitle">',
-		'after_title' => "</span></div>\n",
+		'after_widget' => "</li>",
+		'before_title' => '<label>',
+		'after_title' => "</label>",
 	) );
 
 	register_sidebar( array(
@@ -61,10 +61,10 @@ function arphabet_widgets_init() {
 		'id' => 'sidebar_2',
 		'description' => '',
 		'class' => '',
-		'before_widget' => '<div class="lowerWidget"><div class="widgetFrame">',
-		'after_widget' => "</div>\n</div>\n",
-		'before_title' => '<h4 class="widgettitle">',
-		'after_title' => "</h4>\n",
+		'before_widget' => '<li id="%1$s" class="widget %2$s">',
+		'after_widget' => "</li>",
+		'before_title' => '<label>',
+		'after_title' => "</label>",
 	) );
 
 	register_sidebar( array(
@@ -73,9 +73,9 @@ function arphabet_widgets_init() {
 		'description' => '',
 		'class' => '',
 		'before_widget' => '<li id="%1$s" class="widget %2$s">',
-		'after_widget' => "</li>\n",
-		'before_title' => '<div class="title_box"><span class="widgettitle">',
-		'after_title' => "</span></div>\n",
+		'after_widget' => "</li>",
+		'before_title' => '<label>',
+		'after_title' => "</label>",
 	) );
 
 
